@@ -1,0 +1,35 @@
+{
+  "name": "fb-opt-aws-codedeploy-watcher",
+  "version": "0.2.0",
+  "description": "A lovely Fritbot module to watch AWS CodeDeploy deployments",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acarrasco/fb-opt-aws-codedeploy-watcher.git"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.36",
+    "html-entities": "",
+    "lodash": "^4.5.0",
+    "minimist": "^1.2.0",
+    "request": ""
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-push-release": "",
+    "grunt-contrib-jshint": "",
+    "grunt-jscs": ""
+  },
+  "keywords": [
+    "fritbot",
+    "fritbot-module",
+    "code-deploy",
+    "aws"
+  ],
+  "author": "Alejandro Carrasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acarrasco/fb-opt-aws-codedeploy-watcher/issues"
+  },
+  "homepage": "https://github.com/acarrasco/fb-opt-aws-codedeploy-watcher"
+}
