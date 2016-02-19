@@ -4,6 +4,6 @@ codedeploy_timeout: "I am sorry %s, I got tired of waiting for the deployment «
 codedeploy_deployment_succeeded: "Excelent news %s! Deployment «%s» succeeded!"
 codedeploy_deployment_stopped: "Hey %s, deployment «%s» was stopped... Was it you?"
 codedeploy_deployment_failed: "Bad news %s, deployment «%s» has failed"
-codedeploy_deployment_progress: "Hey %s, deployment «%s» has progressed, here is an update:\n%s"
+codedeploy_deployment_progress: "Deployment «%s» has progressed, here is an update:\n%s"
 codedeploy_describe_application_error: "Sorry %s, something went wrong when requesting information about application «%s»: %s"
 codedeploy_describe_application_success: "OK %s, here is what I found about what is deployed for application «%s»: %s"

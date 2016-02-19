@@ -55,8 +55,8 @@ function watchDeployment(route, args) {
 				case 'Created':
 				case 'Queued':
 				case 'InProgress':
-					if (!_is.equal(previous.deploymentOverview, deploymentInfo.deploymentOverview)) {
-						route.send('?deployment_progress', nick, deploymentInfo.deploymentOverview);
+					if (!previous || !_.isEqual(previous.deploymentOverview, deploymentInfo.deploymentOverview)) {
+						route.send('?codedeploy_deployment_progress', deploymentId, JSON.stringify(deploymentInfo.deploymentOverview));
 					}
 					previous = deploymentInfo;
 					setTimeout(watchLoop, interval);
